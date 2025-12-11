@@ -1,0 +1,4 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+nav a { margin-right: .5rem; }
+button { padding: .5rem 1rem; }
+pre { background: #f6f8fa; padding: 1rem; border-radius: 8px; }

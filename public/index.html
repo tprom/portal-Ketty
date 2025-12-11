@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Портал</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <nav>
+    <a href="/">Главная</a> |
+    <a href="/stories.html">Истории</a> |
+    <a href="/about.html">О портале</a>
+  </nav>
+  <h1>Портал запущен</h1>
+  <button id="hintBtn">Получить подсказку</button>
+  <pre id="hintOut"></pre>
+  <script>
+    document.getElementById('hintBtn').onclick = async () => {
+      const res = await fetch('/api/hint');
+      const data = await res.json();
+      document.getElementById('hintOut').textContent = JSON.stringify(data, null, 2);
+    };
+  </script>
+</body>
+</html>
