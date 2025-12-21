@@ -1,0 +1,71 @@
+{
+  "city": {
+    "en": "Augsburg",
+    "de": "Augsburg",
+    "ru": "Аугсбург",
+    "uk": "Аугсбург"
+  },
+  "slug": "augsburg",
+  "cover": {
+    "title": {
+      "en": "Augsburg",
+      "de": "Augsburg",
+      "ru": "Аугсбург",
+      "uk": "Аугсбург"
+    },
+    "subtitle": {
+      "en": "City of canals and quiet streets",
+      "de": "Stadt der Kanäle und stillen Gassen",
+      "ru": "Город каналов и тихих улочек",
+      "uk": "Місто каналів і тихих вуличок"
+    },
+    "image": "/cities/augsburg/cover.jpg"
+  },
+  "intro": {
+    "text": {
+      "en": "Augsburg is one of the oldest cities in Germany, known for its canals, Renaissance architecture, and peaceful atmosphere.",
+      "de": "Augsburg ist eine der ältesten Städte Deutschlands, bekannt für seine Kanäle, Renaissance-Architektur und ruhige Atmosphäre.",
+      "ru": "Аугсбург — один из старейших городов Германии, известный своими каналами, архитектурой Ренессанса и спокойной атмосферой.",
+      "uk": "Аугсбург — одне з найстаріших міст Німеччини, відоме своїми каналами, архітектурою Ренесансу та спокійною атмосферою."
+    },
+    "image": "/cities/augsburg/intro.jpg"
+  },
+  "places": [
+    {
+      "id": "rathaus",
+      "title": {
+        "en": "Town Hall",
+        "de": "Rathhaus",
+        "ru": "Ратуша",
+        "uk": "Ратуша"
+      },
+      "story": {
+        "en": "The Augsburg Town Hall is a masterpiece of Renaissance architecture, built in the early 17th century...",
+        "de": "Das Augsburger Rathaus ist ein Meisterwerk der Renaissance-Architektur, erbaut im frühen 17. Jahrhundert...",
+        "ru": "Аугсбургская ратуша — шедевр архитектуры Ренессанса, построенный в начале XVII века...",
+        "uk": "Аугсбурзька ратуша — шедевр архітектури Ренесансу, збудований на початку XVII століття..."
+      },
+      "illustration": "/cities/augsburg/rathaus.jpg",
+      "coloring": "/cities/augsburg/rathaus_coloring.png",
+      "download": "/cities/augsburg/rathaus_coloring_hd.png"
+    },
+    {
+      "id": "fuggerei",
+      "title": {
+        "en": "Fuggerei",
+        "de": "Fuggerei",
+        "ru": "Фуггерай",
+        "uk": "Фуггерай"
+      },
+      "story": {
+        "en": "The Fuggerei is the oldest social housing complex in the world, founded in 1521...",
+        "de": "Die Fuggerei ist die älteste Sozialsiedlung der Welt, gegründet im Jahr 1521...",
+        "ru": "Фуггерай — старейший в мире социальный жилой комплекс, основанный в 1521 году...",
+        "uk": "Фуггерай — найстаріший у світі соціальний житловий комплекс, заснований у 1521 році..."
+      },
+      "illustration": "/cities/augsburg/fuggerei.jpg",
+      "coloring": "/cities/augsburg/fuggerei_coloring.png",
+      "download": "/cities/augsburg/fuggerei_coloring_hd.png"
+    }
+  ]
+}
